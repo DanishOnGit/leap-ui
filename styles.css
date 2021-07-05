@@ -2,6 +2,7 @@
 @import url("navbar.css");
 @import url("banner.css");
 @import url("offerings.css");
+@import url("batches.css");
 
 :root{
     --blue-500:#443EFF;
@@ -12,6 +13,7 @@
     --grey-500:#616161;
     --grey-600:#555555;
     --pink-400:#FF7791;
+    --z-2:2;
 }
 *{
     font-family: 'Roboto', sans-serif;
