@@ -1,0 +1,64 @@
+.banner{
+    width: 100vw;
+    padding:18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.banner_heading {
+  text-align: center;
+  margin: 28px;
+}
+.banner_text {
+  font-weight: 900;
+  font-size: 28px;
+  color: var(--blue-600);
+}
+.ielts{
+    color: var(--blue-500);
+}
+.tagline{
+    color: var(--blue-700);
+    font-size: 1rem;
+    margin-top: -10px;
+}
+.banner-img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.discount-path{
+    position: absolute;
+    left: 2.75rem;
+    top: 7.25rem;
+}
+.discount-path::content{
+    content: "startes";
+}
+
+.banner_img {
+  margin-top: 28px;
+}
+.course-offerings-wrapper{
+ display: flex;
+ text-align: center;
+ color: var(--blue-700);
+ font-size: 12px;
+ font-weight: 700;
+}
+.view-batch-cta{
+    background-color:var(--blue-500);
+    color: white;
+    padding: 17px 16px 72px 73px;
+    margin: 33px 44px 0 0 ;
+}
+.icon-svg{
+    border-left: 2px solid var(--grey-400);
+    border-right: 2px solid var(--grey-400);
+}
+@media (min-width: 768px) {
+  .banner {
+    display: flex;
+  }
+}
