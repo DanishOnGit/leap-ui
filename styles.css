@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("navbar.css");
+*{
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --blue-500:#443EFF;
+    --blue-600:#000090;
+    --blue-700:#1B1D6A;
+    --blue-800:#001090;
+    --grey-500:#616161;
+}

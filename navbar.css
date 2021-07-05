@@ -1,0 +1,17 @@
+
+.nav-wrapper{
+display: flex;
+
+}
+.nav-items-wrapper{
+    display: flex;
+}
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.list-wrapper{
+    list-style: none;
+    display: flex;
+}
