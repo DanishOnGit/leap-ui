@@ -3,16 +3,20 @@
 @import url("banner.css");
 @import url("offerings.css");
 @import url("batches.css");
+@import url("variant.css");
 
 :root{
+    --blue-400:#C1DBFD;
     --blue-500:#443EFF;
     --blue-600:#000090;
     --blue-700:#1B1D6A;
     --blue-800:#001090;
     --grey-400:#E9E9E9;
+    --grey-450:#d3d3d3;
     --grey-500:#616161;
     --grey-600:#555555;
     --pink-400:#FF7791;
+    --red-500:#FC0505;
     --z-2:2;
 }
 *{
