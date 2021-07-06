@@ -100,3 +100,47 @@
 .pagination-dot:not(:last-child) {
     margin-right: 0.25rem;
 }
+
+@media (min-width:768px){
+.faculty{
+    max-width: 1170px;
+    margin: 5rem auto;
+    box-shadow: 0px 3px 20px #0000001A;
+    padding: 2rem;
+    display: flex;
+}
+
+.faculty-heading{
+    font-size: 40px;
+}
+.profile-img{
+    height: 170px;
+    width:170px
+}
+.faculty-text-wrapper{
+    margin-top: 1rem;
+}
+.faculty-card-wrapper{
+    flex-direction: column;
+}
+.faculty-profile-card{
+    min-width:0;
+    width:auto;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 1rem;
+}
+.profile-img{
+    left: -4rem;
+    border-radius: 6px;
+}
+.faculty-cta{
+    width: auto;
+    padding: 18px 39px;
+}
+.faculty-name{
+    font-weight: 800;
+}
+.pagination-dot-wrapper{
+    display: none;
+}
+}

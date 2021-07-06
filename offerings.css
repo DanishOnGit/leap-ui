@@ -64,7 +64,7 @@
 @media (min-width:768px){
   .offering-card-wrapper{
     flex-direction: row;
-    padding: 100px 145px;
+    padding: 100px 190px;
   }
   .offering-cards-wrapper{
     display: flex;

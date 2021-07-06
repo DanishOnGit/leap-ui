@@ -85,6 +85,7 @@
   border-radius: 3px;
   font-weight: bold;
   margin: 1.5rem 0;
+  box-shadow: 0 -10px 30px 10px rgb(228, 224, 224,0.2);
 }
 .grey-divider-line {
   height: 2px;
@@ -101,10 +102,20 @@
   font-size: 1rem;
   font-weight: bold;
 }
+.outer-batch-card-wrapper{
+    max-height: 895px;
+    overflow-y: hidden;
+}
+.no-border{
+      background:transparent;
+     margin-bottom: 1rem;
+     box-shadow: 0px 3px 6px #00000029;
+
+}
 
 @media (min-width: 768px) {
   .batches {
-    padding: 70px 145px;
+    padding: 70px 165px;
   }
   .batches-heading-wrapper {
     display: flex;
@@ -120,11 +131,15 @@
   }
   .outer-batch-card-wrapper{
       display: flex;
+      overflow-x: hidden;
   }
+  
   .batch-card-wrapper{
       display: flex;
       flex-direction: row;
+      margin-right: 2rem;
   }
+ 
   .view-more-btn{
       display: none;
   }

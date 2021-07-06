@@ -18,3 +18,24 @@
     font-weight: 700;
     font-size: 1rem;
 }
+
+@media(min-width:768px){
+    .mobile-section-wrapper{
+        background: url("./assets/Mobile\ Section@2x.png");
+        height: 730px;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        padding: 0 18px;
+    }
+    .desc{
+        padding:7rem
+    }
+    .desc_heading{
+        font-size: 4rem;
+    }
+    .android{
+        font-size: 1.75rem;
+    }
+}

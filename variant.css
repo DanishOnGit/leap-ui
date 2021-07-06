@@ -44,7 +44,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   text-decoration: line-through;
-  text-decoration-color:var(--red-500);
+  text-decoration-color: var(--red-500);
 }
 .new-price {
   font-size: 2.5rem;
@@ -86,10 +86,28 @@
   border-radius: 14px;
   margin-left: -1rem;
 }
-.bold{
-    font-weight: 700;
+.bold {
+  font-weight: 700;
 }
-.extra-offer{
-    color: white;
-    margin: 2rem 0;
+.extra-offer {
+  color: white;
+  margin: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  .course-variants {
+    padding: 80px 165px;
+  }
+  .course-variants_heading {
+    font-size: 40px;
+    margin-bottom: 58px;
+  }
+  .variant-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .variant-list li {
+    margin: 1rem;
+  }
 }
