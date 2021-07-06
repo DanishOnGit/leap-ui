@@ -6,6 +6,7 @@
 @import url("variant.css");
 @import url("faculty.css");
 @import url("testimonials.css");
+@import url("mobile.css");
 
 :root{
     --blue-400:#C1DBFD;

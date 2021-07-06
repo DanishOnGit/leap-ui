@@ -56,10 +56,14 @@
     margin-left: 1rem;
     color: var(--grey-600);
 }
+.borderless-batch-card{
+    width: 100%;
+}
 .webinar-cta {
     margin: auto;
+    border: none;
     width: calc(100% - 1.5rem);
-    background-color: var(--grey-500);
+    background-color: var(--grey-450);
     color: white;
     border-radius: 3px;
     padding: 12px 0;
@@ -68,70 +72,36 @@
     letter-spacing: 1px;
     margin-bottom: 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-.webinar-img{
-    /* position: absolute;
-    left: 0; */
-    /* width: 100%; */
-    /* z-index: -1; */
-}
-.webinar-date{
-    /* position: absolute;
-    top:48%;
-    left: 5%; */
-    
-    width: 100%;
-    font-weight: 700;
-    padding: 10px 1rem ;
-    /* border-bottom: 1px solid var(--pink-400); */
-}
-.divider-line{
-    height: 1px;
-    background-color: var(--pink-400);
-    margin: 0 1rem;
-}
-.webinar-day{
-    left: 0;
-    color: var(--pink-400);
-}
-
-.week-time-wrapper{
-    /* position:absolute;
-    top: 58%; */
-    padding:1rem;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-.week-time-wrapper_weekdays,.week-time-wrapper_timing{
-    display: flex;
-    align-items: center;
-}
-.days-of-week,.timing{
-    margin-left: 1rem;
-    color:var(--grey-600);
-}
-.webinar-cta{
-    /* position: absolute;
-    top: 80%;
-    left: 1rem; */
-    margin: auto;
-    width: calc(100% - 1.5rem);
-    background-color: var(--grey-500);
+.bg-blue{
     color: white;
-    border-radius: 3px;
-    padding: 10px 0;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 1px;
+    background-color: var(--blue-500);
 }
+.view-more-btn{
+    color: var(--blue-500);
+    border: 2px solid var(--blue-500);
+    padding: 12px 0;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 3px;
+    font-weight: bold;
+    margin:1.5rem 0;
+}
+.grey-divider-line{
+    height: 2px;
+    color: var(--grey-500);
+    align-self:center;
+}
+.full-width{
+    width: 100%;
+}
+.convenient-batch-text{
+color: var(--blue-500);
+text-align: center;
+font-size: 1rem;
+font-weight: bold;
+}
+
+
+
+
+

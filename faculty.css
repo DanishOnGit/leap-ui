@@ -49,8 +49,6 @@
     flex: 4;
     display: flex;
     flex-direction: column;
-    /* position: relative;
-    left: -2rem; */
 }
 .faculty-name{
     color:var(--grey-700);
@@ -76,4 +74,29 @@
     width: 100%;
     margin: 1rem 0;
     border: none;
+}
+.institute-wrapper{
+    margin: 1rem 0;
+}
+.verified-badge{
+    margin-left: 1rem;
+}
+.pagination-dot-wrapper {
+    display: flex;
+    align-items: center;
+    margin:1rem auto;
+    width: fit-content;
+}
+.pagination-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.pagination-dot-active {
+    background-color: black;
+}
+.pagination-dot:not(:last-child) {
+    margin-right: 0.25rem;
 }

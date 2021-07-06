@@ -1,3 +1,4 @@
+
 .testimonials{
     padding: 0 18px;
 }
@@ -10,6 +11,7 @@
   }
   .testimonials-wrapper{
       display: flex;
+      overflow-x: hidden;
   }
   .testimonial-1,.testimonial-2{
       width: 302px;
