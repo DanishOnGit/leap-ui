@@ -15,26 +15,51 @@
     <title>Leap UI</title>
   </head>
   <body>
-    <nav class="nav-wrapper">
-      <!-- <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <div class="logo-wrapper">
-        <img class="logo-img" src="./assets/Leap finance logo.svg" alt="Logo" />
-        <span class="brand">LeapScholar</span>
+    <nav class="nav-wrapper-width">
+      <div class="nav-wrapper">
+          <div class="logo-wrapper">
+              <img class="logo-img" src="./assets/Leap finance logo.svg" alt="Logo" />
+              <span class="brand">LeapScholar</span>
+          </div>
+          <div class="nav-item view-country-desktop">
+            <button class="link-with-icon active f-bold">Choose Country
+              <span class="link-icon">
+                <i  class="fas fa-sort-down"></i>
+              </span>
+            </button>
+           </div>
+          <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+          </label>
+          <input type="checkbox" id="check" />
+          <ul class="list-wrapper">
+              <li class="nav-item active">Home</li>
+              <li class="nav-item ">About</li>
+              <li class="nav-item">
+                <button class="link-with-icon">Our Experts<span class="link-icon">
+                  <i class="fas fa-sort-down"></i>
+                </span>
+              </button>
+            </li>
+              <li class="nav-item">
+                <button class="link-with-icon">IELTS<span class="link-icon">
+                <i class="fas fa-sort-down"></i>
+              </span>
+            </button>
+          </li>
+              <li class="nav-item">
+                <button class="link-with-icon">Scholarship<span class="link-icon">
+                  <i class="fas fa-sort-down"></i>
+                </span>
+              </button>
+            </li>
+              <li class="nav-item btn-margin"><button class="view-batch-cta">Sign In</button></li>
+              <li class="nav-item btn-margin"><button class="view-batch-cta btn-outline">Sign Up</button></li>
+          </ul>
       </div>
+  </nav>
 
-      <ul class="list-wrapper">
-        <li class="nav-item">About</li>
-        <li class="nav-item">Home</li>
-        <li class="nav-item"><button>Our Experts</button></li>
-        <li class="nav-item"><button>IELTS</button></li>
-        <li class="nav-item"><button>Scholarship</button></li>
-        <li class="nav-item"><button>Sign In</button></li>
-        <li class="nav-item"><button>Sign Up</button></li>
-      </ul> -->
-    </nav>
+    <!-- Nav wrap till here -->
     <div class="display-grid">
     <section class="banner">
       <div class="banner_heading">
@@ -308,7 +333,7 @@
 
         <div class="variant-card">
           <div class="live-badge">
-            <span> LIVE </span>
+            <span> LIVE <i class="fas fa-wifi"></i> </span>
           </div>
           <div class="variant-card_heading">
             <h2>IELTS Plus</h2>
@@ -340,7 +365,7 @@
 
         <div class="variant-card">
           <div class="live-badge">
-            <span> LIVE </span>
+            <span> LIVE <i class="fas fa-wifi"></i> </span>
           </div>
           <div class="variant-card_heading">
             <h2>IELTS Premium</h2>
@@ -471,22 +496,14 @@
     <section>
       <div class="mobile-section-wrapper">
         <div class="desc">
-          <h2 class="desc_heading">Get the App!</h2>
+          <h2 class="desc_heading">Get the App</h2>
           <p class="android">
-            Our Android app for <span class="ielts">IELTS</span>
+            Our Android app for <span class="ielts f-bold">IELTS</span>
           </p>
           <img class="google-badge" src="./assets/Google Badge.svg" alt="" />
         </div>
       </div>
-      <!-- <div class="mobile-section-wrapper view-this-desktop">
-        <div class="desc">
-          <h2>Get the App!</h2>
-          <p class="android">
-            Our Android app for <span class="ielts">IELTS</span>
-          </p>
-          <img class="google-badge" src="./assets/Google Badge.svg" alt="" />
-        </div>
-      </div> -->
+     
     </section>
   </body>
 </html>

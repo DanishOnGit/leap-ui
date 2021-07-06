@@ -33,9 +33,19 @@
         padding:7rem
     }
     .desc_heading{
-        font-size: 4rem;
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .f-bold{
+        font-weight: 900;
     }
     .android{
         font-size: 1.75rem;
+        font-weight: 400;
+    }
+    .google-badge{
+        width: 234px;
+        height: 70px;
+        margin-top: 4rem;
     }
 }
