@@ -1,0 +1,43 @@
+.faq{
+max-width: 1110px;
+margin: auto;
+padding-top: 5rem;
+}
+.fa-chevron-up,.fa-chevron-down{
+    color: var(--pink-400);
+    font-size: 30px;
+}
+.question{
+    height: 78px;
+    padding: 10px 1rem;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+   border-left: 10px solid var(--pink-400);
+    margin: 1rem 0;
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.faq-text{
+    padding: 2rem;
+    color: var(--grey-500);
+    line-height: 1.4;
+}
+
+.press{
+    max-width: 1110px;
+    margin: 3rem auto;
+}
+.backed-by{
+    
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backed-by span{
+    font-weight: 900;
+    margin-right: 1rem;
+}

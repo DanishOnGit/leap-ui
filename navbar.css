@@ -23,16 +23,9 @@
   align-items: center;
 }
 
-.logo-wrapper {
-  display: flex;
-  align-items: center;
-  width: fit-content;
-}
-
 .brand {
   color: var(--blue-500);
   font-size: 1.35rem;
-  line-height: 58px;
   font-weight: bold;
   margin-left: 6px;
 }
@@ -42,16 +35,11 @@
 }
 
 .nav-item {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
   color: var(--grey-500);
 }
 .checkbtn {
   font-size: 30px;
   color: var(--blue-500);
-  line-height: 58px;
-  margin-right: 5px;
   cursor: pointer;
   padding: 9px 16px;
 }
@@ -61,6 +49,7 @@
 }
 
 .list-wrapper {
+  list-style: none;
   width: 100vw;
   height: calc(100vh - 58px);
   overflow: auto;
@@ -75,7 +64,6 @@
 }
 .nav-item {
   margin: 1rem 0;
-  line-height: 15px;
   font-weight: 700;
   font-size: 1.2rem;
   cursor: pointer;
