@@ -1,107 +1,142 @@
-.batches{
-    padding: 0 18px;
+.batches {
+  padding: 0 18px;
 }
-.batches_heading{
-    color: var(--blue-700);
-    line-height: 1.6;
-    font-weight: 900;
+.batches_heading {
+  color: var(--blue-700);
+  line-height: 1.6;
+  font-weight: 900;
 }
-.batches_para{
-    text-align: right;
-    color: var(--pink-400);
-    margin:0.5rem 0;
-    font-weight: 700;
+.batches_para {
+  text-align: right;
+  color: var(--pink-400);
+  margin: 0.5rem 0;
+  font-weight: 700;
 }
 
 .batch-card-wrapper {
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    background: linear-gradient(to right, #f6e691, #9c8f56);
-    border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #f6e691, #9c8f56);
+  border-radius: 0.3rem;
 }
 .batch-card {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 .webinar-date {
-    width: 100%;
-    font-weight: 700;
-    padding: 10px 1rem;
+  width: 100%;
+  font-weight: 700;
+  padding: 10px 1rem;
 }
 .divider-line {
-    height: 1px;
-    background-color: var(--pink-400);
-    margin: 0 1rem;
+  height: 1px;
+  background-color: var(--pink-400);
+  margin: 0 1rem;
 }
 .webinar-day {
-    left: 0;
-    color: var(--pink-400);
+  left: 0;
+  color: var(--pink-400);
 }
 
 .week-time-wrapper {
-    padding: 1rem;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 .week-time-wrapper_weekdays,
 .week-time-wrapper_timing {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .days-of-week,
 .timing {
-    margin-left: 1rem;
-    color: var(--grey-600);
+  margin-left: 1rem;
+  color: var(--grey-600);
 }
-.borderless-batch-card{
-    width: 100%;
+.borderless-batch-card {
+  width: 100%;
 }
 .webinar-cta {
-    margin: auto;
-    border: none;
-    width: calc(100% - 1.5rem);
-    background-color: var(--grey-450);
-    color: white;
-    border-radius: 3px;
-    padding: 12px 0;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-bottom: 0.5rem;
+  margin: auto;
+  border: none;
+  width: calc(100% - 1.5rem);
+  background-color: var(--grey-450);
+  color: white;
+  border-radius: 3px;
+  padding: 12px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
 }
-.bg-blue{
-    color: white;
-    background-color: var(--blue-500);
+.bg-blue {
+  color: white;
+  background-color: var(--blue-500);
 }
-.view-more-btn{
-    color: var(--blue-500);
-    border: 2px solid var(--blue-500);
-    padding: 12px 0;
-    width: 100%;
-    font-size: 1rem;
-    border-radius: 3px;
-    font-weight: bold;
-    margin:1.5rem 0;
+.view-more-btn {
+  color: var(--blue-500);
+  border: 2px solid var(--blue-500);
+  padding: 12px 0;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: 1.5rem 0;
 }
-.grey-divider-line{
-    height: 2px;
-    color: var(--grey-500);
-    align-self:center;
+.grey-divider-line {
+  height: 2px;
+  background-color: var(--grey-450);
+  align-self: center;
+  margin: 1rem 0;
 }
-.full-width{
-    width: 100%;
+.full-width {
+  width: 100%;
 }
-.convenient-batch-text{
-color: var(--blue-500);
-text-align: center;
-font-size: 1rem;
-font-weight: bold;
+.convenient-batch-text {
+  color: var(--blue-500);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-
-
-
-
+@media (min-width: 768px) {
+  .batches {
+    padding: 70px 145px;
+  }
+  .batches-heading-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .batches_heading {
+    font-size: 40px;
+  }
+  .batches_para {
+    font-size: 24px;
+  }
+  .outer-batch-card-wrapper{
+      display: flex;
+  }
+  .batch-card-wrapper{
+      display: flex;
+      flex-direction: row;
+  }
+  .view-more-btn{
+      display: none;
+  }
+  .waitlist-cta-wrapper{
+      margin:auto;
+      max-width: 30rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .full-width{
+      width:195px ;
+      margin-top: 0;
+  }
+}

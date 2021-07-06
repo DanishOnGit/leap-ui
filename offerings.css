@@ -60,3 +60,29 @@
 .last-card{
     margin-bottom: 2rem;
 }
+
+@media (min-width:768px){
+  .offering-card-wrapper{
+    flex-direction: row;
+    padding: 100px 145px;
+  }
+  .offering-cards-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+  .offering-card-wrapper_para,.offering-card-wrapper_heading{
+    text-align: left;
+    line-height: 1.4;
+  }
+  .offering-card-wrapper_heading{
+    font-size: 40px;
+  }
+  .offering-card{
+    margin: 0 1rem;
+    min-width: 245px
+  }
+  .offering-card:last-child{
+    margin-bottom: 0;
+  }
+
+} 
