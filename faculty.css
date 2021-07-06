@@ -1,0 +1,79 @@
+.faculty {
+  padding: 0 18px;
+}
+.faculty-card-wrapper{
+    display: flex;
+    overflow-x: hidden;
+}
+.faculty-profile-card{
+    padding: 1rem;
+    position: relative;
+    left: 1rem;
+    min-width:73vw;
+    margin-right: 1.5rem;
+}
+.faculty-badge {
+  margin: 1rem 0;
+  color: white;
+  border-radius: 19px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+  background-color: var(--yellow-500);
+}
+.faculty-heading {
+  color: var(--blue-700);
+  margin: 1rem 0;
+  font-weight: 900;
+  line-height: 1.6;
+}
+.faculty-profile-card{
+    display: flex;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.profile-img-wrapper{
+    flex: 1;
+    width: 50px;
+}
+.profile-img{
+    height: 89px;
+    width: 80px;
+    position: relative;
+    left:-2rem;
+}
+.faculty-name{
+    display: flex;
+    align-items: center;
+    margin: 0.25rem 0;
+}
+.profile-desc{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    left: -2rem; */
+}
+.faculty-name{
+    color:var(--grey-700);
+}
+.faculty-exp{
+    color: var(--pink-400);
+    font-weight: 700;
+    margin: 0.25rem 0;
+}
+.faculty-achievements{
+    color: var(--grey-800);
+    line-height: 1.6;
+    margin: 0.5rem;
+}
+.faculty-cta{
+    background-color: var(--blue-500);
+    color: white;
+    border-radius: 3px;
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 1rem 0;
+    border: none;
+}

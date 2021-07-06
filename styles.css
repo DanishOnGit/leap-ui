@@ -4,6 +4,8 @@
 @import url("offerings.css");
 @import url("batches.css");
 @import url("variant.css");
+@import url("faculty.css");
+@import url("testimonials.css");
 
 :root{
     --blue-400:#C1DBFD;
@@ -15,8 +17,11 @@
     --grey-450:#d3d3d3;
     --grey-500:#616161;
     --grey-600:#555555;
+    --grey-700:#3C4858;
+    --grey-800:#6C757D;
     --pink-400:#FF7791;
     --red-500:#FC0505;
+    --yellow-500:#F4AF2F;
     --z-2:2;
 }
 *{

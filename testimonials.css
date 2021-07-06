@@ -1,0 +1,17 @@
+.testimonials{
+    padding: 0 18px;
+}
+.testimonials-heading {
+    color: var(--blue-700);
+    margin: 1rem 0;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1.6;
+  }
+  .testimonials-wrapper{
+      display: flex;
+  }
+  .testimonial-1,.testimonial-2{
+      width: 302px;
+      height: 428px;
+  }
