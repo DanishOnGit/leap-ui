@@ -5,13 +5,13 @@ padding-top: 5rem;
 }
 .fa-chevron-up,.fa-chevron-down{
     color: var(--pink-400);
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 .question{
-    height: 78px;
+    height: 4.875rem;
     padding: 10px 1rem;
     display: flex;
-    font-size: 24px;
+    font-size: 1.5rem;
     justify-content: space-between;
     align-items: center;
     border-radius: 12px;

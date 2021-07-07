@@ -1,11 +1,11 @@
 .course-variants {
   background-color: var(--blue-800);
-  padding: 18px;
+  padding: 1.125rem;
 }
 .course-variants_heading {
   margin: 1rem 0;
   color: white;
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 1.6;
 }
 .variant-card {
@@ -17,7 +17,7 @@
   padding: 2rem 1rem 1rem 1rem;
   border-radius: 4px;
   box-shadow: 0px 3px 6px #00000029;
-  min-height: 486px;
+  min-height: 30.375rem;
 }
 .live-badge {
   position: absolute;
@@ -69,7 +69,7 @@
   height: 1rem;
 }
 .buy-course-cta {
-  padding: 10px 0;
+  padding: 0.625rem 0;
   font-weight: 700;
   font-size: 1rem;
   border-radius: 3px;
@@ -82,8 +82,8 @@
   color: white;
   font-size: 11px;
   font-weight: 700;
-  padding: 8px 10px;
-  border-radius: 14px;
+  padding: 0.5rem 0.625rem;
+  border-radius: 0.875rem;
   margin-left: -1rem;
 }
 .bold {
@@ -96,11 +96,11 @@
 
 @media (min-width: 768px) {
   .course-variants {
-    padding: 80px 165px;
+    padding: 5rem 10.312rem;
   }
   .course-variants_heading {
-    font-size: 40px;
-    margin-bottom: 58px;
+    font-size: 2.5rem;
+    margin-bottom: 3.625rem;
   }
   .variant-cards-wrapper {
     display: grid;

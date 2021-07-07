@@ -8,7 +8,7 @@
 }
 
 .nav-wrapper {
-  height: 58px;
+  height: 3.625rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -18,7 +18,7 @@
 }
 
 .logo-wrapper {
-  padding: 9px 16px;
+  padding: 0.56rem 1rem;
   display: flex;
   align-items: center;
 }
@@ -31,17 +31,17 @@
 }
 
 .logo-img {
-  height: 50px;
+  height: 3.125rem;
 }
 
 .nav-item {
   color: var(--grey-500);
 }
 .checkbtn {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: var(--blue-500);
   cursor: pointer;
-  padding: 9px 16px;
+  padding: 0.56rem 1rem;
 }
 
 #check {
@@ -53,9 +53,9 @@
   width: 100vw;
   height: calc(100vh - 58px);
   overflow: auto;
-  padding: 20px 20px;
+  padding: 1.25rem;
   position: fixed;
-  top: 58px;
+  top: 3.625rem;
   background-color: white;
   transition: transform 0.5s ease;
   transform: translateX(100%);
@@ -107,7 +107,7 @@
 
 @media screen and (min-width: 768px) {
   .nav-wrapper {
-      height: 75px;
+      height: 4.687rem;
   }
   .view-country-desktop{
     display:block;

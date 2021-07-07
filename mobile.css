@@ -1,18 +1,18 @@
 .mobile-section-wrapper{
     background: url("./assets/Mobile\ Section.png");
-    height: 281px;
+    height: 17.562rem;
     background-size:100% 100%;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    padding: 0 18px;
+    padding: 0 1.125rem;
 }
 .desc>*{
     margin-bottom: 1rem;
 }
 .google-badge{
-    width: 148px;
-    height: 44px;
+    width: 9.25rem;
+    height: 2.75rem;
 }
 .android{
     font-weight: 700;
@@ -22,12 +22,12 @@
 @media(min-width:768px){
     .mobile-section-wrapper{
         background: url("./assets/Mobile\ Section@2x.png");
-        height: 730px;
+        height: 45.625rem;
         background-size:100% 100%;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
-        padding: 0 18px;
+        padding: 0 1.125rem;
     }
     .desc{
         padding:7rem
@@ -44,8 +44,8 @@
         font-weight: 400;
     }
     .google-badge{
-        width: 234px;
-        height: 70px;
+        width: 14.625rem;
+        height: 4.375rem;
         margin-top: 4rem;
     }
 }

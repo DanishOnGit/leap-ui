@@ -1,11 +1,11 @@
 
 .testimonials{
-    padding: 0 18px;
+    padding: 0 1.125rem;
 }
 .testimonials-heading {
     color: var(--blue-700);
     margin: 1rem 0;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 900;
     line-height: 1.6;
   }
@@ -14,22 +14,22 @@
       overflow-x: hidden;
   }
   .testimonial-1,.testimonial-2{
-      width: 302px;
-      height: 428px;
+      width: 18.875rem;
+      height: 26.75rem;
   }
 
   @media(min-width:768px){
       .testimonials{
           max-width: 1150px;
           margin: auto;
-          padding: 70px 0;
+          padding: 4.375rem 0;
       }
       .testimonials-heading{
-          font-size: 40px;
+          font-size: 2.5rem;
       }
       .testimonial-1,.testimonial-2{
-        width: 351px;
-        height: 498px;
+        width: 21.937rem;
+        height: 31.125rem;
         margin-right: 1.5rem;
     }
   }
